@@ -1,0 +1,18 @@
+<title>Resultado da Consulta</title>
+<h1>Jogador encontrado!</h1>
+<p>Nome: <%= jogador.nome %></p>
+<p>Time: <%= jogador.time %></p>
+<p>Idade: <%= jogador.idade %></p>
+<p>Aceleração: <%= jogador.aceleracao %></p>
+<p>Velocidade de Sprint: <%= jogador.velocidadeSprint %></p>
+<p>Finalização: <%= jogador.finalizacao %></p>
+<p>Força do Chute: <%= jogador.forcaChute %></p>
+<p>Chutes Longos: <%= jogador.chutesLongos %></p>
+<p>Pênaltis: <%= jogador.penaltis %></p>
+<p>Visão: <%= jogador.visao %></p>
+<p>Cruzamentos: <%= jogador.cruzamentos %></p>
+<p>Agilidade: <%= jogador.agilidade %></p>
+<p>Equilíbrio: <%= jogador.equilibrio %></p>
+<p>Dribles: <%= jogador.dribles %></p>
+<a href="/alterarjogador?nome=<%= jogador.nome %>&time=<%= jogador.time %>">Alterar</a>
+<a href="/excluirjogador?nome=<%= jogador.nome %>&time=<%= jogador.time %>">Excluir</a>

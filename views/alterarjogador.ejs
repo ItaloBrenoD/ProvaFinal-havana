@@ -1,0 +1,34 @@
+<title>Alterar Jogador</title>
+<h1>Alterar Jogador</h1>
+<p>Lembre-se não é possivel alterar o nome e nem o time!</p>
+<form action="/alterandojogador" method="post">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" value="<%= jogador.nome %>" readonly><br>
+    <label for="time">Time:</label><br>
+    <input type="text" id="time" name="time" value="<%= jogador.time %>" readonly><br>
+    <label for="idade">Idade:</label><br>
+    <input type="text" id="idade" name="idade" value="<%= jogador.idade %>"><br>
+    <label for="aceleracao">Aceleração:</label><br>
+    <input type="text" id="aceleracao" name="aceleracao" value="<%= jogador.aceleracao %>"><br>
+    <label for="velocidadeSprint">Velocidade de Sprint:</label><br>
+    <input type="text" id="velocidadeSprint" name="velocidadeSprint" value="<%= jogador.velocidadeSprint %>"><br>
+    <label for="finalizacao">Finalização:</label><br>
+    <input type="text" id="finalizacao" name="finalizacao" value="<%= jogador.finalizacao %>"><br>
+    <label for="forcaChute">Força do Chute:</label><br>
+    <input type="text" id="forcaChute" name="forcaChute" value="<%= jogador.forcaChute %>"><br>
+    <label for="chutesLongos">Chutes Longos:</label><br>
+    <input type="text" id="chutesLongos" name="chutesLongos" value="<%= jogador.chutesLongos %>"><br>
+    <label for="penaltis">Pênaltis:</label><br>
+    <input type="text" id="penaltis" name="penaltis" value="<%= jogador.penaltis %>"><br>
+    <label for="visao">Visão:</label><br>
+    <input type="text" id="visao" name="visao" value="<%= jogador.visao %>"><br>
+    <label for="cruzamentos">Cruzamentos:</label><br>
+    <input type="text" id="cruzamentos" name="cruzamentos" value="<%= jogador.cruzamentos %>"><br>
+    <label for="agilidade">Agilidade:</label><br>
+    <input type="text" id="agilidade" name="agilidade" value="<%= jogador.agilidade %>"><br>
+    <label for="equilibrio">Equilíbrio:</label><br>
+    <input type="text" id="equilibrio" name="equilibrio" value="<%= jogador.equilibrio %>"><br>
+    <label for="dribles">Dribles:</label><br>
+    <input type="text" id="dribles" name="dribles" value="<%= jogador.dribles %>"><br>
+    <input type="submit" value="Alterar">
+</form>
